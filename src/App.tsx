@@ -1,6 +1,6 @@
 import { BrowserRouter, NavLink } from 'react-router-dom';
 import './App.css';
-import { Routes } from './containers/Routes';
+import { RoutesComponent } from './containers/RoutesComponent';
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
           <NavLink to="/about">About </NavLink>
           <NavLink to="/contacts">Contacts</NavLink>
         </header>
-        <Routes />
+        <RoutesComponent />
       </div>
     </BrowserRouter>
   );
